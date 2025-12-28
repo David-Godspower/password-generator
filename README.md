@@ -27,12 +27,15 @@ A modern, responsive, and customizable password generator web application. This 
 ├── style.css       # Styling and responsive design
 ├── script.js       # Password generation logic and event listeners
 └── README.md       # Project documentation
-🔧 How to Run
+
+
+
+# 🔧 How to Run
 Clone this repository:
 
 Bash
 
-git clone [https://github.com/your-username/password-generator.git](https://github.com/your-username/password-generator.git)
+git clone [https://github.com/david-godspower/password-generator.git](https://github.com/david-godspower/password-generator.git)
 Navigate to the project folder.
 
 Open index.html in your browser.
@@ -40,11 +43,11 @@ Open index.html in your browser.
 👨‍💻 Author
 David Godspower Ajala
 
-Portfolio
+[Portfolio](https://github.com/david-godspower/david-portfolio)
 
-LinkedIn
+[LinkedIn](https://www.linkedin.com/in/david-ajala-a93b862a1/)
 
-GitHub
+[GitHub](https://www.google.com/search?q=https://github.com/your-username)
 
 
 ---
@@ -52,35 +55,35 @@ GitHub
 ### Step 2: Upload to GitHub
 If you haven't uploaded code before, here is the command-line method (using Git Bash or VS Code terminal):
 
-1.  **Initialize Git:**
+1.  ** Initialize Git: **
     Open your project folder in your terminal and type:
     ```bash
     git init
     ```
 
-2.  **Add Your Files:**
+2.  ** Add Your Files: **
     ```bash
     git add .
     ```
 
-3.  **Commit Your Changes:**
+3.  ** Commit Your Changes: **
     ```bash
     git commit -m "Initial commit - Completed Password Generator app"
     ```
 
-4.  **Create a Repository on GitHub:**
+4.  ** Create a Repository on GitHub: **
     * Go to [GitHub.com](https://github.com) and sign in.
     * Click the **+** icon (top right) -> **New repository**.
     * Name it `password-generator`.
     * Click **Create repository**.
 
-5.  **Connect and Push:**
+5.  ** Connect and Push: **
     Copy the commands GitHub shows you under *"…or push an existing repository from the command line"* and paste them into your terminal. They usually look like this:
     ```bash
     git branch -M main
-    git remote add origin https://github.com/YOUR-USERNAME/password-generator.git
+    git remote add origin https://github.com/david-godspower/password-generator.git
     git push -u origin main
     ```
 
-**Bonus Tip:**
+** Bonus Tip: **
 Once uploaded, go to the **Settings** tab of your new repository, scroll down to **Pages**, and set the source to `main` branch. This will host your website for free so you can share the link!
