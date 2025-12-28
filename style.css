@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+}
+
+.password-generator {
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subtitle {
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.password-display {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#password {
+    flex: 1;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+#password:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.copy-btn {
+    padding: 15px;
+    background-color: #667eea;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-btn:hover {
+    background-color: #5568d3;
+    transform: translateY(-2px);
+}
+
+.copy-btn:active {
+    transform: translateY(0);
+}
+
+.copy-btn.copied {
+    background-color: #4caf50;
+}
+
+.settings {
+    margin-bottom: 25px;
+}
+
+.setting-group {
+    margin-bottom: 20px;
+}
+
+.setting-group label {
+    display: block;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#length {
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;
+    background: #e0e0e0;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+#length::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #667eea;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#length::-webkit-slider-thumb:hover {
+    background: #5568d3;
+}
+
+#length::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #667eea;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s;
+}
+
+#length::-moz-range-thumb:hover {
+    background: #5568d3;
+}
+
+#length-value {
+    font-weight: bold;
+    color: #667eea;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    accent-color: #667eea;
+}
+
+.checkbox-label span {
+    color: #555;
+    font-size: 14px;
+}
+
+.generate-btn {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.generate-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+}
+
+.generate-btn:active {
+    transform: translateY(0);
+}
+
+.strength-indicator {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.strength-label {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+#strength-text {
+    font-weight: bold;
+}
+
+.strength-bar {
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.strength-bar-fill {
+    height: 100%;
+    width: 0;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.strength-weak {
+    background-color: #f44336;
+    width: 33%;
+}
+
+.strength-medium {
+    background-color: #ff9800;
+    width: 66%;
+}
+
+.strength-strong {
+    background-color: #4caf50;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .password-generator {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    #password {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
