@@ -3,7 +3,7 @@
 A modern, responsive, and customizable password generator web application. This tool allows users to generate secure, random passwords with real-time strength validation.
 
 ## 🚀 Live Demo
-[**View Live Demo**](https://your-username.github.io/your-repo-name/)
+[**View Live Demo**]([https://david-godspower.github.io/password-generator/](https://david-godspower.github.io/password-generator/))
 
 ## ✨ Features
 
@@ -43,7 +43,7 @@ Open index.html in your browser.
 👨‍💻 Author
 David Godspower Ajala
 
-[Portfolio](https://github.com/david-godspower/david-portfolio)
+[**Portfolio**](https://github.com/david-godspower/david-portfolio)
 
 [LinkedIn](https://www.linkedin.com/in/david-ajala-a93b862a1/)
 
