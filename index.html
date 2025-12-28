@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
-    
+    <header>
+        <h1>Password Generator</h1>
+    </header>
+    <main>
+    <section>
+        <label for="length">Password Length:</label>
+        <input type="number" id="length" min="4" max="32" value="12">
+    </section>
+    <section>
+        <input type="checkbox" id="uppercase" checked>
+        <label for="uppercase">Include Uppercase Letters</label>
+    </section>
+    <section>
+        <input type="checkbox" id="lowercase" checked>
+        <label for="lowercase">Include Lowercase Letters</label>
+    </section>
+    <section>
+        <input type="checkbox" id="numbers" checked>
+        <label for="numbers">Include Numbers</label>
+    </section>
+    <section>
+        <input type="checkbox" id="symbols">
+        <label for="symbols">Include Symbols</label>
+    </section>
+    <section class="length-section">
+            <label for="length">Password Length:</label>
+            <div class="slider-container">
+                <input type="range" id="lengthRange" min="4" max="32" value="12">
+            </div>
+    </section>
+
+    <button id="generateBtn">Generate Password</button>
+
+    <section>
+        <h2>Your Generated Password:</h2>
+        <textarea id="passwordDisplay" rows="4" readonly></textarea>
+        
+        <div id="strengthIndicator"></div>
+
+        <button id="copyBtn" style="background-color: #28a745;">
+            <i class="fas fa-copy"></i> Copy to Clipboard
+        </button>
+    </section>
+</main>
+    <footer>
+      <p><a href="https://david-godspower.github.io/david-portfolio/" target="_blank">David Godspower Ajala (D.G.A.) &copy; <span id="year"></span></a></p>
+      <br />
+      <a href="https://www.linkedin.com/in/david-ajala-a93b862a1/" target="_blank"><i class="fab fa-linkedin icons"></i></a>
+      <a href="mailto:ajaladavid11@gmail.com" target="_blank"><i class="fas fa-envelope icons"></i></a>
+      <a href="https://web.facebook.com/facebook.comDavidGodpowerAjalaDGA/" target="_blank"><i class="fab fa-facebook icons"></i></a>
+      <a href="https://x.com/ajala28981" target="_blank"><i class="fab fa-x icons"></i></a>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
