@@ -3,26 +3,27 @@
 A modern, responsive, and customizable password generator web application. This tool allows users to generate secure, random passwords with real-time strength validation.
 
 ## 🚀 Live Demo
-[**View Live Demo**]([https://david-godspower.github.io/password-generator/](https://david-godspower.github.io/password-generator/))
+
+[**View Live Demo**](https://david-godspower.github.io/password-generator/)
 
 ## ✨ Features
 
-* **Real-time Generation:** Passwords update instantly as you adjust settings (length, numbers, symbols).
-* **Custom Length Slider:** Intuitive range slider synchronized with a number input for precise control.
-* **Strength Indicator:** Visual feedback (Weak/Medium/Strong) based on password complexity.
-* **One-Click Copy:** "Copy to Clipboard" button with visual success feedback.
-* **Responsive Design:** Fully functional on desktop and mobile devices.
-* **Dark/Modern UI:** Clean interface with gradient backgrounds and professional typography.
+- **Real-time Generation:** Passwords update instantly as you adjust settings (length, numbers, symbols).
+- **Custom Length Slider:** Intuitive range slider synchronized with a number input for precise control.
+- **Strength Indicator:** Visual feedback (Weak/Medium/Strong) based on password complexity.
+- **One-Click Copy:** "Copy to Clipboard" button with visual success feedback.
+- **Responsive Design:** Fully functional on desktop and mobile devices.
+- **Dark/Modern UI:** Clean interface with gradient backgrounds and professional typography.
 
 ## 🛠️ Technologies Used
 
-* **HTML5:** Semantic structure and form controls.
-* **CSS3:** Flexbox layout, CSS variables, custom range sliders, and responsive media queries.
-* **JavaScript (ES6+):** DOM manipulation, Event handling, Randomization algorithms, and Clipboard API integration.
+- **HTML5:** Semantic structure and form controls.
+- **CSS3:** Flexbox layout, CSS variables, custom range sliders, and responsive media queries.
+- **JavaScript (ES6+):** DOM manipulation, Event handling, Randomization algorithms, and Clipboard API integration.
 
 ## 📂 Project Structure
 
-```text
+````text
 ├── index.html      # Main HTML structure
 ├── style.css       # Styling and responsive design
 ├── script.js       # Password generation logic and event listeners
@@ -43,9 +44,8 @@ Open index.html in your browser.
 👨‍💻 Author
 David Godspower Ajala
 
-[**Portfolio**](https://github.com/david-godspower/david-portfolio)
-
-[LinkedIn](https://www.linkedin.com/in/david-ajala-a93b862a1/)
+[**Portfolio](https://david-godspower.github.io/david-portfolio/)
+[LinkedIn](https://www.linkedin.com/in/david-godspower-ajala/)
 
 [GitHub](https://www.google.com/search?q=https://github.com/your-username)
 
@@ -87,3 +87,4 @@ If you haven't uploaded code before, here is the command-line method (using Git 
 
 ** Bonus Tip: **
 Once uploaded, go to the **Settings** tab of your new repository, scroll down to **Pages**, and set the source to `main` branch. This will host your website for free so you can share the link!
+````
